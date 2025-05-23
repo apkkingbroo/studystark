@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telegram Unlock</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #1e1f26;
+      font-family: 'Rubik', sans-serif;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      border: 1.5px solid #00adb5;
+      border-radius: 12px;
+      padding: 18px 14px;
+      max-width: 300px;
+      width: 90%;
+      text-align: center;
+      background-color: #2b2d42;
+    }
+    h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 13px;
+      margin-bottom: 16px;
+      line-height: 1.4;
+      color: #ccc;
+    }
+    .highlight {
+      color: #7fff00; /* light green */
+      font-weight: 700;
+      margin-top: 6px;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+    .btn {
+      display: block;
+      padding: 10px 20px;
+      font-size: 13px;
+      border: none;
+      border-radius: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      margin: 0 auto 12px auto;
+      max-width: 180px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      user-select: none;
+    }
+    .btn:hover {
+      transform: scale(1.07);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+    }
+    .telegram-btn {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      box-shadow: 0 4px 15px rgba(0, 114, 255, 0.6);
+      animation: pulse 2s infinite ease-in-out;
+    }
+    .access-btn {
+      background: linear-gradient(135deg, #f9d423, #ff4e50);
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.6);
+      display: none;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 4px 15px rgba(0, 114, 255, 0.6); }
+      50% { box-shadow: 0 8px 30px rgba(0, 114, 255, 0.9); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Telegram Channel Join Karein</h1>
+    <p>MOD APKs ke liye channel join karein.</p>
+    <p class="highlight">Join karne ke baad neeche access button par click karein.</p>
+    <a href="https://telegram.me/apkmodderking" class="btn telegram-btn" target="_blank" onclick="showLink()">Join Telegram</a>
+    <a href="https://www.studystark.site/pw.php" class="btn access-btn" id="accessBtn" target="_blank">Access Link</a>
+  </div>
+
+  <script>
+    function showLink() {
+      setTimeout(() => {
+        document.getElementById('accessBtn').style.display = 'block';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
